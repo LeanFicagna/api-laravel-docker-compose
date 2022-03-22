@@ -19,8 +19,9 @@ grupo possui somente uma campanha ativa;
 1. Instale o Docker no seu computado.
 2. Clone esse repositório utilizando o comando `git clone https://github.com/LeanFicagna/api-laravel-docker-compose`
 3. Construa as imagens necessárias utilizando o comando `docker-compose up -d --build`
-4. Na raiz do projeto construa baixe as dependências necessárias do compose utilizando o comando `docker-compose run --rm composer update`
-5. Configure o arquivo .env
+4. Na raiz do projeto baixe as dependências necessárias do compose utilizando o comando `docker-compose run --rm composer update`
+5. Gere a key do APP_KEY `docker-compose run --rm artisan key:generate`
+6. Configure o arquivo .env
 
      `APP_URL=http://localhost:80`
      
@@ -36,7 +37,7 @@ grupo possui somente uma campanha ativa;
      
      `DB_PASSWORD=secret`
      
-6. Crie as tabelas necessárias com o comando `docker-compose run --rm artisan migrate`
+7. Crie as tabelas necessárias com o comando `docker-compose run --rm artisan migrate`
 
     ##### A API já está pronta para ser utilizada
 
