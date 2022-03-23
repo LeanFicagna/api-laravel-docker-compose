@@ -16,7 +16,7 @@ grupo possui somente uma campanha ativa;
 - Cada cidade possui somente um grupo;
 
 ## Instruções para execução
-1. Instale o Docker no seu computado.
+1. Instale o Docker no seu computador.
 2. Clone esse repositório utilizando o comando `git clone https://github.com/LeanFicagna/api-laravel-docker-compose`
 3. Construa as imagens necessárias utilizando o comando `docker-compose up -d --build site`
 4. Na raiz do projeto baixe as dependências necessárias do compose utilizando o comando `docker-compose run --rm composer update`
