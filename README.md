@@ -12,7 +12,6 @@ grupo possui somente uma campanha ativa;
   - [X] Cadastrar/Editar/Listar/Excluir desconto para os produtos da campanha;
   - [X] Cadastrar/Editar/Listar/Excluir produtos;
 
-- As tabelas de relacionamento estão a cargo do candidato;
 - Cada cidade possui somente um grupo;
 
 ## Instruções para execução
